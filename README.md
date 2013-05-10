@@ -1,7 +1,7 @@
 dutch-holidays
 ==============
 
-This project offers an overview of Dutch holidays (Nederlandse feestdagen). The file called NederlandseFeestdagen.ics contains information only in Dutch. In the file Dutch Holidays.ics, is the same information in Dutch available but an English translation is added.
+This project offers an overview of Dutch holidays (Nederlandse feestdagen) from 2010 until the year 2050. The file called NederlandseFeestdagen.ics contains information only in Dutch. In the file Dutch Holidays.ics, is the same information in Dutch available but an English translation is added.
 
 The reason in the latter version for using the Dutch names first and the translation in brackets is that not all holidays can be unambiguously translated or do not exist in the English speaking world or do exist but with a different meaning or with a different date. Examples that are prone for confusion are Liberation Day, Mothers' Day, Fathers' Day, Veterans Day etcetera.
 
