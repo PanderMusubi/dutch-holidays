@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Name		generate.py
-Description	...
+Description	Generate ICS files in Dutch and English for Dutch holidays
 Author		Pander <pander@users.sourceforge.net>
-License		...
+License		Public domain
 
 0.1 2013-05-10	Pander <pander@users.sourceforge.net>
 Initial release
@@ -58,7 +58,7 @@ for holiday_file in sorted(os.listdir(directory)):
             date = datetime.datetime.strptime(line.strip(), '%Y%m%d')
             kalender.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
             calendar.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            if name == 'Carnaval':
+            if naam == 'Carnaval':
                 date += datetime.timedelta(days=3)
             else:
                 date += datetime.timedelta(days=1)
