@@ -9,6 +9,8 @@ Public holidays in the Netherlands can be official or non-official, can be free 
 
 All holidays in the Netherlands which effect office hours. This can result in total closure of a business or people leaving early. Subsequently this can effect (part of) the country's infrastructure. The goal is to make people aware about the risk of planning events on or near those days. People, businesses and public services are probably not available as usual.
 
+Perhaps you do not celibate certain religious holidays but your family, friends, colleges, suppliers or customers do. Next to making you aware of planning risks, this calendar of course also indicates when you might have days off.
+
 School holidays are omitted because they differ throughout the country, are dependent on the level of education and are not planned many years in advance. Most businesses in the Netherlands operate normally during school holidays.
 
 Official Dutch public holidays here are of calendar category Public Holiday. All other holidays have a calendar category called Unofficial Public Holiday. Whether or not this constitutes a free day is entirely up to the line of work. With the exception of Liberation Day, all of category Public Holiday usually result in a day off.
