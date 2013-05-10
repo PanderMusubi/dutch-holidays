@@ -15,18 +15,18 @@ import datetime, os
 kalender = open('NederlandseFeestdagen.ics', 'w')
 calendar = open('DutchHolidays.ics', 'w')
 
-calendar_header= open('calendar-header.txt', 'r')
+calendar_header= open('templates/calendar-header.txt', 'r')
 for line in calendar_header.readlines():
     kalender.write(line)
     calendar.write(line.replace('NederlandseFeestdagen', 'DutchHolidays'))
 
 holiday_header = ''
-event_header= open('event-header.txt', 'r')
+event_header= open('templates/event-header.txt', 'r')
 for line in event_header.readlines():
     holiday_header += line
 
 holiday_footer = ''
-event_footer= open('event-footer.txt', 'r')
+event_footer= open('templates/event-footer.txt', 'r')
 for line in event_footer.readlines():
     holiday_footer += line
 
@@ -58,7 +58,10 @@ for holiday_file in sorted(os.listdir(directory)):
             date = datetime.datetime.strptime(line.strip(), '%Y%m%d')
             kalender.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
             calendar.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            date += datetime.timedelta(days=1)
+            if name == 'Carnaval':
+                date += datetime.timedelta(days=3)
+            else:
+                date += datetime.timedelta(days=1)
             kalender.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
             calendar.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
             if 'Nieuwjaarsdag' in naam or 'Goede Vrijdag' in naam or 'Paasdag' in naam or 'Koning' in naam or 'Bevrijdinsdag' in naam or 'Hemelvaartsdag' in naam or 'Pinksterdag' in naam or 'Kerstdag' in naam:
@@ -68,7 +71,7 @@ for holiday_file in sorted(os.listdir(directory)):
                 kalender.write(holiday_footer.replace('Public Holiday', 'Unofficial Public Holiday'))
                 calendar.write(holiday_footer.replace('Public Holiday', 'Unofficial Public Holiday'))
 
-calendar_footer= open('calendar-footer.txt', 'r')
+calendar_footer= open('templates/calendar-footer.txt', 'r')
 for line in calendar_footer.readlines():
     kalender.write(line)
     calendar.write(line)
