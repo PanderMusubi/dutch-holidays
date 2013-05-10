@@ -15,6 +15,8 @@ School holidays are omitted because they differ throughout the country, are depe
 
 Official Dutch public holidays here are of calendar category Public Holiday. All other holidays have a calendar category called Unofficial Public Holiday. Whether or not this constitutes a free day is entirely up to the line of work. With the exception of Liberation Day, all of category Public Holiday usually result in a day off.
 
+Your calendar software such as Thunderbird Lightning, Evolution, Google Calendar, OS-X Calendar and so on can colour these Dutch holidays. Probably distinction in colour can be configured too according to the calendar categories of Public Holiday and Unofficial Public Holiday.
+
 Dutch version
 
 https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics
