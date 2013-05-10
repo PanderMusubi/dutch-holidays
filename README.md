@@ -17,6 +17,8 @@ Official Dutch public holidays here are of calendar category Public Holiday. All
 
 Your calendar software such as Thunderbird Lightning, Evolution, Google Calendar, OS-X Calendar and so on can colour these Dutch holidays. Probably distinction in colour can be configured too according to the calendar categories of Public Holiday and Unofficial Public Holiday.
 
+Note: PLease do not import these ICS files into your calendar as they will not get updated. Please use add shared (read only) network calendar when adding Dutch holidays to your calander software.
+
 Dutch version
 
 https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics
