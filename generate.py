@@ -10,6 +10,9 @@ Initial release
 
 0.2 2016-03-07	Pander <pander@users.sourceforge.net>
 Ported to Python 3
+
+0.3 2016-03-07	Pander <pander@users.sourceforge.net>
+Added actual DTSTAMP
 """
 
 from datetime import datetime, timedelta
@@ -26,7 +29,7 @@ for line in calendar_header.readlines():
 holiday_header = ''
 event_header = open('templates/event-header.txt', 'r')
 for line in event_header.readlines():
-    holiday_header += line
+    holiday_header += line.replace('DTSTAMP:', 'DTSTAMP:{}'.format(datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')))
 
 holiday_footer = ''
 event_footer = open('templates/event-footer.txt', 'r')
@@ -36,7 +39,7 @@ for line in event_footer.readlines():
 directory = 'scripted-holidays'
 for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
-        holiday = open(directory + '/' + holiday_file, 'r')
+        holiday = open('{}/{}'.format(directory, holiday_file), 'r')
         (naam, name) = holiday_file[:-4].split('_')
         kalender.write(holiday_header.strip()+naam+'\n')
         calendar.write(holiday_header.strip()+naam+' ('+name+')\n')
@@ -53,7 +56,7 @@ for holiday_file in sorted(listdir(directory)):
 directory = 'unscripted-holidays'
 for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
-        holiday = open(directory + '/' + holiday_file, 'r')
+        holiday = open('{}/{}'.format(directory, holiday_file), 'r')
         (naam, name) = holiday_file[:-4].split('_')
         for line in holiday.readlines():
             kalender.write(holiday_header.strip()+naam+'\n')
