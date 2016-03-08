@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Name		generate.py
+Name		process-holidays.py
 Description	Generate ICS files in Dutch and English for Dutch holidays
 Author		Pander <pander@users.sourceforge.net>
 License		Public domain
