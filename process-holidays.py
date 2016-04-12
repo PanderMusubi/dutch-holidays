@@ -22,18 +22,18 @@ kalender = open('NederlandseFeestdagen.ics', 'w')
 calendar = open('DutchHolidays.ics', 'w')
 
 calendar_header = open('templates/calendar-header.txt', 'r')
-for line in calendar_header.readlines():
+for line in calendar_header:
     kalender.write(line)
     calendar.write(line.replace('NederlandseFeestdagen', 'DutchHolidays'))
 
 holiday_header = ''
 event_header = open('templates/event-header.txt', 'r')
-for line in event_header.readlines():
+for line in event_header:
     holiday_header += line.replace('DTSTAMP:', 'DTSTAMP:{}'.format(datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')))
 
 holiday_footer = ''
 event_footer = open('templates/event-footer.txt', 'r')
-for line in event_footer.readlines():
+for line in event_footer:
     holiday_footer += line
 
 directory = 'scripted-holidays'
@@ -43,7 +43,7 @@ for holiday_file in sorted(listdir(directory)):
         (naam, name) = holiday_file[:-4].split('_')
         kalender.write(holiday_header.strip()+naam+'\n')
         calendar.write(holiday_header.strip()+naam+' ('+name+')\n')
-        for line in holiday.readlines():
+        for line in holiday:
             kalender.write(line)
             calendar.write(line)
         if 'Nieuwjaarsdag' in naam or 'Goede Vrijdag' in naam or 'Paasdag' in naam or 'Koning' in naam or 'Bevrijdinsdag' in naam or 'Hemelvaartsdag' in naam or 'Pinksterdag' in naam or 'Kerstdag' in naam:
@@ -58,7 +58,7 @@ for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
         holiday = open('{}/{}'.format(directory, holiday_file), 'r')
         (naam, name) = holiday_file[:-4].split('_')
-        for line in holiday.readlines():
+        for line in holiday:
             kalender.write(holiday_header.strip()+naam+'\n')
             calendar.write(holiday_header.strip()+naam+' ('+name+')\n')
             date = datetime.strptime(line.strip(), '%Y%m%d')
@@ -78,6 +78,6 @@ for holiday_file in sorted(listdir(directory)):
                 calendar.write(holiday_footer.replace('Public Holiday', 'Unofficial Public Holiday'))
 
 calendar_footer = open('templates/calendar-footer.txt', 'r')
-for line in calendar_footer.readlines():
+for line in calendar_footer:
     kalender.write(line)
     calendar.write(line)
