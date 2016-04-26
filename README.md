@@ -41,9 +41,9 @@ See also this [list of applications with iCalendar support](https://en.wikipedia
 
 [<img alt="example mobile" src="example-mobile.png?raw=true" width="50%" />](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
-[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
-
 Most calendar software can show these Dutch holidays to a color of your choice. Also in some software, a distinction in colour can be configured according to the calendar categories `Public Holiday` and `Unofficial Public Holiday`.
+
+[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
 Warning: Please, do **not** import these ICS files into your calendar as they will be added only once and never get updated. Add these calendars as a shared (read-only) network calendar. These calendars do not need frequent updates, however, sometimes bugs are fixed, future years are added or holidays change in date or in name. See for example the transition from Queen's Day to King's Day, that also got another date. Most software will have a maximum update frequency of once a week, which is fine for these calendars. Syncing should also configured to take place only from server to client, computer or phone.
 
