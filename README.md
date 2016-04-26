@@ -31,6 +31,7 @@ The calendars provided here are in iCalendar or ICS format. Calendar software th
 * for OS-X, Windows and Linux: [Mozilla Thunderbird](https://www.mozilla.org/thunderbird/)
 * web-based and indirectly on Android too: [Google Calendar](https://google.com/calendar)
 * for Android only: ICSdroid from [Google Play](https://play.google.com/store/apps/details?id=at.bitfire.icsdroid) or [F-Droid](https://f-droid.org/repository/browse/?fdfilter=calendar&fdid=at.bitfire.icsdroid)
+* for Android only: CalDAV-Sync from [Google Play](https://play.google.com/store/apps/details?id=org.dmfs.caldav.lib) and soon on F-Droid too
 * for OS-X only: [Calendar](https://www.apple.com/osx/apps/#calendar)
 * for iOS only: [iCloud Calendar](https://www.apple.com/icloud/#ccm)
 * for Windows only: [Microsoft Outlook](https://products.office.com/outlook)
@@ -38,7 +39,9 @@ The calendars provided here are in iCalendar or ICS format. Calendar software th
 
 See also this [list of applications with iCalendar support](https://en.wikipedia.org/wiki/List_of_applications_with_iCalendar_support) on Wikipedia, with many more native calendar clients and web-based systems such as ownCloud. Please note that many CMS software support displaying ICS calendars.
 
-![example](example.png?raw=true)
+[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
+
+[![example mobile](example-mobile.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
 Most calendar software can show these Dutch holidays to a color of your choice. Also in some software, a distinction in colour can be configured according to the calendar categories `Public Holiday` and `Unofficial Public Holiday`.
 
