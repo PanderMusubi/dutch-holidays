@@ -39,9 +39,9 @@ The calendars provided here are in iCalendar or ICS format. Calendar software th
 
 See also this [list of applications with iCalendar support](https://en.wikipedia.org/wiki/List_of_applications_with_iCalendar_support) on Wikipedia, with many more native calendar clients and web-based systems such as ownCloud. Please note that many CMS software support displaying ICS calendars.
 
-[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
+[<img alt="example mobile" src="example-mobile.png?raw=true" width="50%" />](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
-[![example mobile](example-mobile.png?raw=true | width=540)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
+[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
 Most calendar software can show these Dutch holidays to a color of your choice. Also in some software, a distinction in colour can be configured according to the calendar categories `Public Holiday` and `Unofficial Public Holiday`.
 
