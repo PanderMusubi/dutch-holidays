@@ -41,7 +41,7 @@ See also this [list of applications with iCalendar support](https://en.wikipedia
 
 [![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
-[![example mobile](example-mobile.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
+[![example mobile](example-mobile.png?raw=true | width=540)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
 
 Most calendar software can show these Dutch holidays to a color of your choice. Also in some software, a distinction in colour can be configured according to the calendar categories `Public Holiday` and `Unofficial Public Holiday`.
 
