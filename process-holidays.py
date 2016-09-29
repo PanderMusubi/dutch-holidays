@@ -13,18 +13,31 @@ Ported to Python 3
 
 0.3 2016-03-07	Pander <pander@users.sourceforge.net>
 Added actual DTSTAMP
+
+0.4 2016-09-29	Wouter Haffmans <wouter@simply-life.net>
+Generate valid iCal files (UID field added, newlines written as CRLF)
 """
 
 from datetime import datetime, timedelta
 from os import listdir
+import os
+import socket
 
-kalender = open('NederlandseFeestdagen.ics', 'w')
-calendar = open('DutchHolidays.ics', 'w')
+kalender = open('NederlandseFeestdagen.ics', 'w', newline='\r\n')
+calendar = open('DutchHolidays.ics', 'w', newline='\r\n')
 
 calendar_header = open('templates/calendar-header.txt', 'r')
 for line in calendar_header:
     kalender.write(line)
     calendar.write(line.replace('NederlandseFeestdagen', 'DutchHolidays'))
+
+uid_format='UID:%(date)s-%(pid)d-%(seq)04d-%(lang)s@%(domain)s\n'
+uid_replace_values = {
+    'date': format(datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')),
+    'pid':  os.getpid(),
+    'domain': socket.getfqdn()
+}
+event_seq = 1
 
 holiday_header = ''
 event_header = open('templates/event-header.txt', 'r')
@@ -43,6 +56,9 @@ for holiday_file in sorted(listdir(directory)):
         (naam, name) = holiday_file[:-4].split('_')
         kalender.write(holiday_header.strip()+naam+'\n')
         calendar.write(holiday_header.strip()+naam+' ('+name+')\n')
+        kalender.write(uid_format % (dict(list(uid_replace_values.items()) + list({ 'lang': 'nl', 'seq': event_seq }.items()))))
+        calendar.write(uid_format % (dict(list(uid_replace_values.items()) + list({ 'lang': 'en', 'seq': event_seq }.items()))))
+        event_seq += 1
         for line in holiday:
             kalender.write(line)
             calendar.write(line)
@@ -61,6 +77,9 @@ for holiday_file in sorted(listdir(directory)):
         for line in holiday:
             kalender.write(holiday_header.strip()+naam+'\n')
             calendar.write(holiday_header.strip()+naam+' ('+name+')\n')
+            kalender.write(uid_format % (dict(list(uid_replace_values.items()) + list({ 'lang': 'nl', 'seq': event_seq }.items()))))
+            calendar.write(uid_format % (dict(list(uid_replace_values.items()) + list({ 'lang': 'en', 'seq': event_seq }.items()))))
+            event_seq += 1
             date = datetime.strptime(line.strip(), '%Y%m%d')
             kalender.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
             calendar.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
