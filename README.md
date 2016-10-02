@@ -66,7 +66,7 @@ The calendar with Dutch Holidays in English (with Dutch translation where needed
 Maintenance
 -----------
 
-The files are generated from the directories `scripted-holidays`, `unscripted-holidays` and `templates` by running  `generate.sh`. That will call `process-holidays.py` and will subsequently several essential conversions on `*.ics` and reporting in `names-used-*.txt`.
+The files are generated from the directories `scripted-holidays`, `unscripted-holidays` and `templates` by running `process-holidays.py`. This will output `*.ics` files. The script `report.sh` will write a short overview in `names-used-*.txt`.
 
 Calendars that have been generated can be validated by:
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNederlandseFeestdagen.ics
