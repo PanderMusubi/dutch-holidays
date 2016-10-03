@@ -51,16 +51,20 @@ Dutch version
 -------------
 
 The calendar with Dutch Holidays in Dutch can be found at:
-* https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* https://www.mozilla.org/media/caldata/DutchHolidays.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/)
+* development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+* stable version https://www.mozilla.org/media/caldata/DutchHolidays.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+
+![QR code for Dutch stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidays.ics)
 
 
 English version
 ---------------
 
 The calendar with Dutch Holidays in English (with Dutch translation where needed) can be found at:
-* https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* https://www.mozilla.org/media/caldata/DutchHolidaysEnglish.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/)
+* development version https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+* stable version https://www.mozilla.org/media/caldata/DutchHolidaysEnglish.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+
+![QR code for English stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysEnglish.ics)
 
 
 Maintenance
