@@ -5,9 +5,9 @@ Dutch Holidays
 Introduction
 ------------
 
-This project offers an overview of Dutch holidays (Nederlandse feestdagen) from 2010 until the year 2050. The file called [NederlandseFeestdagen.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics) contains information only in Dutch. In the file [DutchHolidays.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics), is the same information in Dutch available but an English translation is added.
+This project offers an overview of Dutch holidays (Nederlandse feestdagen) from 2010 until the year 2050. The file called [NederlandseFeestdagen.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics) contains information only in Dutch. In the file [DutchHolidays.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics), is the same information in Dutch available but an English and German translation is added.
 
-The reason in the latter version for using the Dutch names first and the translation in brackets is that not all holidays can be unambiguously translated or do not exist in the English speaking world or do exist but with a different meaning or with a different date. Examples that are prone for confusion are Liberation Day, Mothers' Day, Fathers' Day, Veterans Day etcetera.
+The reason in the latter version for using the Dutch names first and the translation in brackets is that not all holidays can be unambiguously translated or do not exist in the English or German speaking world or do exist but with a different meaning or with a different date. Examples that are prone for confusion are Liberation Day, Mothers' Day, Fathers' Day, Veterans Day etcetera.
 
 
 Scope
@@ -43,7 +43,7 @@ See also this [list of applications with iCalendar support](https://en.wikipedia
 
 Most calendar software can show these Dutch holidays to a color of your choice. Also in some software, a distinction in colour can be configured according to the calendar categories `Public Holiday` and `Unofficial Public Holiday`.
 
-[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
+[![example](example.png?raw=true)](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/example.png)
 
 Warning: Please, do **not** import these ICS files into your calendar as they will be added only once and never get updated. Add these calendars as a shared (read-only) network calendar. These calendars do not need frequent updates, however, sometimes bugs are fixed, future years are added or holidays change in date or in name. See for example the transition from Queen's Day to King's Day, that also got another date. Most software will have a maximum update frequency of once a week, which is fine for these calendars. Syncing should also configured to take place only from server to client, computer or phone.
 
@@ -60,11 +60,21 @@ The calendar with Dutch Holidays in Dutch can be found at:
 English version
 ---------------
 
-The calendar with Dutch Holidays in English (with Dutch translation where needed) can be found at:
+The calendar with Dutch Holidays in English (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
 * stable version https://www.mozilla.org/media/caldata/DutchHolidaysEnglish.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
 
 ![QR code for English stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysEnglish.ics)
+
+
+German version
+--------------
+
+The calendar with Dutch Holidays in German (with Dutch translation) can be found at:
+* development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischUrlaub.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+* stable version https://www.mozilla.org/media/caldata/NiederlaendischUrlaub.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+
+![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)
 
 
 Maintenance
@@ -75,3 +85,4 @@ The files are generated from the directories `scripted-holidays`, `unscripted-ho
 Calendars that have been generated can be validated by:
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNederlandseFeestdagen.ics
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FDutchHolidays.ics
+* http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNiederlaendischUrlaub.ics
