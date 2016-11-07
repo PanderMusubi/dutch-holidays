@@ -5,7 +5,7 @@ Dutch Holidays
 Introduction
 ------------
 
-This project offers an overview of Dutch holidays (Nederlandse feestdagen) from 2010 until the year 2050. The file called [NederlandseFeestdagen.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics) contains information only in Dutch. In the file [DutchHolidays.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics), is the same information in Dutch available but an English and German translation is added.
+This project offers an overview of Dutch holidays (Nederlandse feestdagen) from 2010 until the year 2050. The file called [NederlandseFeestdagen.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics) contains information only in Dutch. In the file [DutchHolidays.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics), is the same information in Dutch available but an English translation is added. A version with German translation added can be found in [NiederlaendischeFeiertage.ics](https://raw.githubusercontent.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics).
 
 The reason in the latter version for using the Dutch names first and the translation in brackets is that not all holidays can be unambiguously translated or do not exist in the English or German speaking world or do exist but with a different meaning or with a different date. Examples that are prone for confusion are Liberation Day, Mothers' Day, Fathers' Day, Veterans Day etcetera.
 
@@ -22,6 +22,8 @@ Perhaps you do not celibate certain religious holidays but your family, friends,
 School holidays are omitted because they differ throughout the country, are dependent on the level of education and are not planned many years in advance. Most businesses in the Netherlands operate normally during school holidays.
 
 Official Dutch public holidays here are of calendar category Public Holiday. All other holidays have a calendar category called Unofficial Public Holiday. Whether or not this constitutes a free day is entirely up to the line of work. With the exception of Liberation Day, all of category Public Holiday usually result in a day off.
+
+See also the articles [Feestdagen in Nederland](https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland) and [Public holidays in the Netherlands](https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands) on Wikipedia.
 
 
 Usage
@@ -71,8 +73,8 @@ German version
 --------------
 
 The calendar with Dutch Holidays in German (with Dutch translation) can be found at:
-* development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischUrlaub.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* stable version https://www.mozilla.org/media/caldata/NiederlaendischUrlaub.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+* development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+* stable version https://www.mozilla.org/media/caldata/NiederlaendischeFeiertage.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
 
 ![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)
 
@@ -85,4 +87,4 @@ The files are generated from the directories `scripted-holidays`, `unscripted-ho
 Calendars that have been generated can be validated by:
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNederlandseFeestdagen.ics
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FDutchHolidays.ics
-* http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNiederlaendischUrlaub.ics
+* http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNiederlaendischeFeiertage.ics
