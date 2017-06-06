@@ -88,3 +88,11 @@ Calendars that have been generated can be validated by:
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNederlandseFeestdagen.ics
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FDutchHolidays.ics
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.githubusercontent.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNiederlaendischeFeiertage.ics
+
+
+See also
+--------
+
+See also the following websites:
+* https://www.timeanddate.com/holidays/netherlands/
+* https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
