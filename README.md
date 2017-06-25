@@ -74,7 +74,7 @@ German version
 
 The calendar with Dutch Holidays in German (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* stable version https://www.mozilla.org/media/caldata/NiederlaendischeFeiertage.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+* stable version https://www.mozilla.org/media/caldata/DutchHolidaysGerman.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
 
 ![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)
 
