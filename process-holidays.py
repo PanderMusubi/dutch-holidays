@@ -211,7 +211,7 @@ calendar = open(translations['NederlandseFeestdagen.ics']['en'], 'w', newline='\
 Kalender = open(translations['NederlandseFeestdagen.ics']['de'], 'w', newline='\r\n')
 
 # write calendar header
-calendar_header = open('templates/calendar-header.txt', 'r')
+calendar_header = open('templates/calendar-header.txt')
 for line in calendar_header:
     kalender.write(line)
     calendar.write(line.replace('Nederlandse Feestdagen', translations['Nederlandse Feestdagen']['en']))
@@ -219,20 +219,20 @@ for line in calendar_header:
 
 # create event header
 holiday_header = ''
-event_header = open('templates/event-header.txt', 'r')
+event_header = open('templates/event-header.txt')
 for line in event_header:
     holiday_header += line.replace('DTSTAMP:', 'DTSTAMP:{}'.format(dtstamp))
 
 # create event footer
 holiday_footer = ''
-event_footer = open('templates/event-footer.txt', 'r')
+event_footer = open('templates/event-footer.txt')
 for line in event_footer:
     holiday_footer += line
 
 directory = 'scripted-holidays'
 for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
-        holiday = open('{}/{}'.format(directory, holiday_file), 'r')
+        holiday = open('{}/{}'.format(directory, holiday_file))
         naam = holiday_file[:-4]
 
         # write event header
@@ -269,7 +269,7 @@ for holiday_file in sorted(listdir(directory)):
 directory = 'unscripted-holidays'
 for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
-        holiday = open('{}/{}'.format(directory, holiday_file), 'r')
+        holiday = open('{}/{}'.format(directory, holiday_file))
         naam = holiday_file[:-4]
         for line in holiday:
             # write event header
@@ -311,7 +311,7 @@ for holiday_file in sorted(listdir(directory)):
             Kalender.write(holiday_footer)
 
 # write calendar footer
-calendar_footer = open('templates/calendar-footer.txt', 'r')
+calendar_footer = open('templates/calendar-footer.txt')
 for line in calendar_footer:
     kalender.write(line)
     calendar.write(line)
