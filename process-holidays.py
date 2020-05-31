@@ -4,27 +4,6 @@ Name		process-holidays.py
 Description	Generate ICS files in Dutch and English for Dutch holidays
 Author		Pander <pander@users.sourceforge.net>
 License		Public domain
-
-0.7 2018-07-12	Pander <pander@users.sourceforge.net>
-Added French translation
-
-0.6 2016-11-??	Pander <pander@users.sourceforge.net>
-Added categories and URLs
-
-0.5 2016-11-06	Pander <pander@users.sourceforge.net>
-Optimised code, minor improvements and added German translation
-
-0.4 2016-09-29	Wouter Haffmans <wouter@simply-life.net>
-Generate valid iCal files (UID field added, newlines written as CRLF)
-
-0.3 2016-03-07	Pander <pander@users.sourceforge.net>
-Added actual DTSTAMP
-
-0.2 2016-03-07	Pander <pander@users.sourceforge.net>
-Ported to Python 3
-
-0.1 2013-05-10	Pander <pander@users.sourceforge.net>
-Initial release
 """
 
 from datetime import datetime, timedelta
