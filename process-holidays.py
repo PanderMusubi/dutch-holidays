@@ -20,20 +20,20 @@ uid_replace_values = {
 event_seq = 1
 
 # translations
-translations = load(open('translations.json'))  # pylint:disable=consider-using-with
+translations = load(open('translations.json'))  # pylint:disable=consider-using-with,unspecified-encoding
 
-kalender = open('NederlandseFeestdagen.ics', 'w', newline='\r\n')  # pylint:disable=consider-using-with
-calendar = open(translations['NederlandseFeestdagen.ics']['en'], 'w',  # pylint:disable=consider-using-with
+kalender = open('NederlandseFeestdagen.ics', 'w', newline='\r\n')  # pylint:disable=consider-using-with,unspecified-encoding
+calendar = open(translations['NederlandseFeestdagen.ics']['en'], 'w',  # pylint:disable=consider-using-with,unspecified-encoding
                 newline='\r\n')
-calendrier = open(translations['NederlandseFeestdagen.ics']['fr'], 'w',  # pylint:disable=consider-using-with
+calendrier = open(translations['NederlandseFeestdagen.ics']['fr'], 'w',  # pylint:disable=consider-using-with,unspecified-encoding
                   newline='\r\n')
-Kalender = open(translations['NederlandseFeestdagen.ics']['de'], 'w',  # pylint:disable=consider-using-with
+Kalender = open(translations['NederlandseFeestdagen.ics']['de'], 'w',  # pylint:disable=consider-using-with,unspecified-encoding
                 newline='\r\n')
-calendario = open(translations['NederlandseFeestdagen.ics']['es'], 'w',  # pylint:disable=consider-using-with
+calendario = open(translations['NederlandseFeestdagen.ics']['es'], 'w',  # pylint:disable=consider-using-with,unspecified-encoding
                   newline='\r\n')
 
 # write calendar header
-calendar_header = open('templates/calendar-header.txt')  # pylint:disable=consider-using-with
+calendar_header = open('templates/calendar-header.txt')  # pylint:disable=consider-using-with,unspecified-encoding
 for line in calendar_header:
     kalender.write(line)
     calendar.write(line.replace('Nederlandse Feestdagen',
@@ -51,24 +51,24 @@ for line in calendar_header:
 
 # create event header
 holiday_header = ''
-event_header = open('templates/event-header.txt')  # pylint:disable=consider-using-with
+event_header = open('templates/event-header.txt')  # pylint:disable=consider-using-with,unspecified-encoding
 for line in event_header:
     holiday_header += line.replace('DTSTAMP:', 'DTSTAMP:{}'.format(dtstamp))
 
 # create event footer
 holiday_footer = ''
-event_footer = open('templates/event-footer.txt')  # pylint:disable=consider-using-with
+event_footer = open('templates/event-footer.txt')  # pylint:disable=consider-using-with,unspecified-encoding
 for line in event_footer:
     holiday_footer += line
 
 directory = 'scripted-holidays'
 for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
-        holiday = open('{}/{}'.format(directory, holiday_file))  # pylint:disable=consider-using-with
+        holiday = open(f'{directory}/{holiday_file}')  # pylint:disable=consider-using-with,unspecified-encoding
         naam = holiday_file[:-4]
 
         # write event header
-        kalender.write('{}{}\n'.format(holiday_header.strip(), naam))
+        kalender.write(f'{holiday_header.strip()}{naam}\n')
         calendar.write('{}{} ({})\n'.format(holiday_header.strip(),
                                             naam, translations[naam]['en']))
         calendrier.write('{}{} ({})\n'.format(holiday_header.strip(),
@@ -135,11 +135,11 @@ for holiday_file in sorted(listdir(directory)):
 directory = 'unscripted-holidays'
 for holiday_file in sorted(listdir(directory)):
     if holiday_file.endswith(".txt"):
-        holiday = open('{}/{}'.format(directory, holiday_file))  # pylint:disable=consider-using-with
+        holiday = open(f'{directory}/{holiday_file}')  # pylint:disable=consider-using-with,unspecified-encoding
         naam = holiday_file[:-4]
         for line in holiday:
             # write event header
-            kalender.write('{}{}\n'.format(holiday_header.strip(), naam))
+            kalender.write(f'{holiday_header.strip()}{naam}\n')
             calendar.write('{}{} ({})\n'.format(
                            holiday_header.strip(), naam,
                            translations[naam]['en']))
@@ -214,7 +214,7 @@ for holiday_file in sorted(listdir(directory)):
             calendario.write(holiday_footer)
 
 # write calendar footer
-calendar_footer = open('templates/calendar-footer.txt')  # pylint:disable=consider-using-with
+calendar_footer = open('templates/calendar-footer.txt')  # pylint:disable=consider-using-with,unspecified-encoding
 for line in calendar_footer:
     kalender.write(line)
     calendar.write(line)

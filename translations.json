@@ -21,13 +21,13 @@
     "en": "Public Holiday",
     "fr": "Jour Férié",
     "de": "Allgemein Anerkannte Feiertag",
-    "es": "TODO"
+    "es": "Día Festivo Legal"
   },
   "Feestdag": {
     "en": "Holiday",
     "fr": "Fête",
     "de": "Feiertag",
-    "es": "TODO"
+    "es": "Día Festivo"
   },
   "Feestavond": {
     "en": "Evening Celebration",
@@ -53,7 +53,7 @@
     "en": "Siege of Alkmaar",
     "fr": "Siège d’Alkmaar",
     "de": "Alkmaarder Entsatz",
-    "es": "TODO"
+    "es": "Asedio de Alkmaar"
   },
   "Bevrijdingsdag": {
     "type": "Nationale Feestdag",
@@ -101,7 +101,7 @@
     "en": "Epiphany",
     "fr": "Epiphanie",
     "de": "Dreikönigstag",
-    "es": "TODO"
+    "es": "Epifanía"
   },
   "Eerste Kerstdag": {
     "type": "Algemeen Erkende Feestdag",
