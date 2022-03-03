@@ -96,34 +96,34 @@ Dutch version
 
 The calendar with Dutch Holidays in Dutch can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* stable version https://www.mozilla.org/media/caldata/DutchHolidays.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+* stable version https://www.thunderbird.net/media/caldata/DutchHolidays.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
-![QR code for Dutch stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidays.ics)
+![QR code for Dutch stable version hosted by Thunderbird](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.thunderbird.net%2Fmedia%2Fcaldata%2FDutchHolidays.ics)
 
 English version
 ---------------
 
 The calendar with Dutch Holidays in English (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* stable version https://www.mozilla.org/media/caldata/DutchHolidaysEnglish.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+* stable version https://www.thunderbird.net/media/caldata/DutchHolidaysEnglish.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
-![QR code for English stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysEnglish.ics)
+![QR code for English stable version hosted by Thunderbird](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.thunderbird.net%2Fmedia%2Fcaldata%2FDutchHolidaysEnglish.ics)
 
 German version
 --------------
 
 The calendar with Dutch Holidays in German (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-* stable version https://www.mozilla.org/media/caldata/DutchHolidaysGerman.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+<!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysGerman.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
-![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)
+![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)-->
 
 French version
 --------------
 
 The calendar with Dutch Holidays in French (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/JoursFeriesAuxPaysBas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-<!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysFrench.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+<!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysFrench.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
 ![QR code for French stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysFrench.ics)-->
 
@@ -132,7 +132,7 @@ Spanish version
 
 The calendar with Dutch Holidays in Spanish (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/VacacionesHolandesas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-<!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysSpanish.ics hosted by [Mozilla](https://www.mozilla.org/en-US/projects/calendar/holidays/), see also the QR code below.
+<!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysSpanish.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
 ![QR code for Spanish stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysSpanish.ics)-->
 
