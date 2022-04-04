@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -e 'Dutch holidays:'
 grep SUMMARY NederlandseFeestdagen.ics|sed -e 's/SUMMARY://'|sort|uniq 
 echo -e '\nEnglish translations of Dutch holidays:'

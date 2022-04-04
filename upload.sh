@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DST=../thunderbird-website/media/caldata
 
 if [ ! -e $DST ]; then

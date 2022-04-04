@@ -140,7 +140,7 @@ Maintenance
 -----------
 
 The files are generated from the directories `scripted-holidays`,
-`unscripted-holidays` and `templates` by running `process-holidays.py`. This
+`unscripted-holidays` and `templates` by running `generate.py`. This
 will output `*.ics` files. The script `report.sh` will write a short overview in
 `names-used-*.txt`.
 

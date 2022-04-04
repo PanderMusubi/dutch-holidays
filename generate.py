@@ -53,7 +53,7 @@ for line in calendar_header:
 holiday_header = ''
 event_header = open('templates/event-header.txt')  # pylint:disable=consider-using-with,unspecified-encoding
 for line in event_header:
-    holiday_header += line.replace('DTSTAMP:', 'DTSTAMP:{}'.format(dtstamp))
+    holiday_header += line.replace('DTSTAMP:', f'DTSTAMP:{dtstamp}')
 
 # create event footer
 holiday_footer = ''
@@ -69,14 +69,10 @@ for holiday_file in sorted(listdir(directory)):
 
         # write event header
         kalender.write(f'{holiday_header.strip()}{naam}\n')
-        calendar.write('{}{} ({})\n'.format(holiday_header.strip(),
-                                            naam, translations[naam]['en']))
-        calendrier.write('{}{} ({})\n'.format(holiday_header.strip(),
-                                              naam, translations[naam]['fr']))
-        Kalender.write('{}{} ({})\n'.format(holiday_header.strip(),
-                                            naam, translations[naam]['de']))
-        calendario.write('{}{} ({})\n'.format(holiday_header.strip(),
-                                              naam, translations[naam]['es']))
+        calendar.write(f'{holiday_header.strip()}{naam} ({translations[naam]["en"]})\n')
+        calendrier.write(f'{holiday_header.strip()}{naam} ({translations[naam]["fr"]})\n')
+        Kalender.write(f'{holiday_header.strip()}{naam} ({translations[naam]["de"]})\n')
+        calendario.write(f'{holiday_header.strip()}{naam} ({translations[naam]["es"]})\n')
 
         # write event UID and autoincrement
         kalender.write(uid_format % (dict(list(uid_replace_values.items()) +
@@ -107,23 +103,18 @@ for holiday_file in sorted(listdir(directory)):
             calendario.write(line)
 
         # write event URL attachment
-        kalender.write('ATTACH:{}\n'.format(translations[naam]['url']))
-        calendar.write('ATTACH:{}\n'.format(translations[naam]['url']))
-        calendrier.write('ATTACH:{}\n'.format(translations[naam]['url']))
-        Kalender.write('ATTACH:{}\n'.format(translations[naam]['url']))
-        calendario.write('ATTACH:{}\n'.format(translations[naam]['url']))
+        kalender.write(f'ATTACH:{translations[naam]["url"]}\n')
+        calendar.write(f'ATTACH:{translations[naam]["url"]}\n')
+        calendrier.write(f'ATTACH:{translations[naam]["url"]}\n')
+        Kalender.write(f'ATTACH:{translations[naam]["url"]}\n')
+        calendario.write(f'ATTACH:{translations[naam]["url"]}\n')
 
         # write event CATEGORIES
-        kalender.write('CATEGORIES:{}\n'.
-                       format(translations[naam]['type']))
-        calendar.write('CATEGORIES:{}\n'.format(
-            translations[translations[naam]['type']]['en']))
-        calendrier.write('CATEGORIES:{}\n'.format(
-            translations[translations[naam]['type']]['fr']))
-        Kalender.write('CATEGORIES:{}\n'.format(
-            translations[translations[naam]['type']]['de']))
-        calendario.write('CATEGORIES:{}\n'.format(
-            translations[translations[naam]['type']]['es']))
+        kalender.write(f'CATEGORIES:{translations[naam]["type"]}\n')
+        calendar.write(f'CATEGORIES:{translations[translations[naam]["type"]]["en"]}\n')
+        calendrier.write(f'CATEGORIES:{translations[translations[naam]["type"]]["fr"]}\n')
+        Kalender.write(f'CATEGORIES:{translations[translations[naam]["type"]]["de"]}\n')
+        calendario.write(f'CATEGORIES:{translations[translations[naam]["type"]]["es"]}\n')
 
         # write event footer
         kalender.write(holiday_footer)
@@ -140,18 +131,10 @@ for holiday_file in sorted(listdir(directory)):
         for line in holiday:
             # write event header
             kalender.write(f'{holiday_header.strip()}{naam}\n')
-            calendar.write('{}{} ({})\n'.format(
-                           holiday_header.strip(), naam,
-                           translations[naam]['en']))
-            calendrier.write('{}{} ({})\n'.format(
-                             holiday_header.strip(), naam,
-                             translations[naam]['fr']))
-            Kalender.write('{}{} ({})\n'.format(
-                        holiday_header.strip(), naam,
-                        translations[naam]['de']))
-            calendario.write('{}{} ({})\n'.format(
-                        holiday_header.strip(), naam,
-                        translations[naam]['es']))
+            calendar.write(f'{holiday_header.strip()}{naam} ({translations[naam]["en"]})\n')
+            calendrier.write(f'{holiday_header.strip()}{naam} ({translations[naam]["fr"]})\n')
+            Kalender.write(f'{holiday_header.strip()}{naam} ({translations[naam]["de"]})\n')
+            calendario.write(f'{holiday_header.strip()}{naam} ({translations[naam]["es"]})\n')
 
             # write event UID and autoincrement
             kalender.write(uid_format % (dict(
@@ -172,39 +155,34 @@ for holiday_file in sorted(listdir(directory)):
             event_seq += 1
 
             date = datetime.strptime(line.strip(), '%Y%m%d')
-            kalender.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            calendar.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            calendrier.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            Kalender.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            calendario.write('DTSTART;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
+            kalender.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            calendar.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            calendrier.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            Kalender.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            calendario.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
             if naam == 'Carnaval':
                 date += timedelta(days=3)
             else:
                 date += timedelta(days=1)
-            kalender.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            calendar.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            calendrier.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            Kalender.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
-            calendario.write('DTEND;VALUE=DATE:'+date.strftime('%Y%m%d')+'\n')
+            kalender.write(f'DTEND;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            calendar.write(f'DTEND;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            calendrier.write(f'DTEND;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            Kalender.write(f'DTEND;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
+            calendario.write(f'DTEND;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
 
             # write event URL attachment
-            kalender.write('ATTACH:{}\n'.format(translations[naam]['url']))
-            calendar.write('ATTACH:{}\n'.format(translations[naam]['url']))
-            calendrier.write('ATTACH:{}\n'.format(translations[naam]['url']))
-            Kalender.write('ATTACH:{}\n'.format(translations[naam]['url']))
-            calendario.write('ATTACH:{}\n'.format(translations[naam]['url']))
+            kalender.write(f'ATTACH:{translations[naam]["url"]}\n')
+            calendar.write(f'ATTACH:{translations[naam]["url"]}\n')
+            calendrier.write(f'ATTACH:{translations[naam]["url"]}\n')
+            Kalender.write(f'ATTACH:{translations[naam]["url"]}\n')
+            calendario.write(f'ATTACH:{translations[naam]["url"]}\n')
 
             # write event CATEGORIES
-            kalender.write('CATEGORIES:{}\n'.format(
-                translations[naam]['type']))
-            calendar.write('CATEGORIES:{}\n'.format(
-                translations[translations[naam]['type']]['en']))
-            calendrier.write('CATEGORIES:{}\n'.format(
-                translations[translations[naam]['type']]['fr']))
-            Kalender.write('CATEGORIES:{}\n'.format(
-                translations[translations[naam]['type']]['de']))
-            calendario.write('CATEGORIES:{}\n'.format(
-                translations[translations[naam]['type']]['es']))
+            kalender.write(f'CATEGORIES:{translations[naam]["type"]}\n')
+            calendar.write(f'CATEGORIES:{translations[translations[naam]["type"]]["en"]}\n')
+            calendrier.write(f'CATEGORIES:{translations[translations[naam]["type"]]["fr"]}\n')
+            Kalender.write(f'CATEGORIES:{translations[translations[naam]["type"]]["de"]}\n')
+            calendario.write(f'CATEGORIES:{translations[translations[naam]["type"]]["es"]}\n')
 
             # write event footer
             kalender.write(holiday_footer)
