@@ -109,7 +109,7 @@
     "en": "Christmas Day",
     "fr": "Noël",
     "de": "Erster Weihnachtsfeiertag",
-    "es": "Erster Weihnachtsfeiertag"
+    "es": "TODO Navidad"
   },
   "Eerste Paasdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -117,7 +117,7 @@
     "en": "Easter Sunday",
     "fr": "Pâques",
     "de": "Erster Osterfeiertag",
-    "es": "Erster Osterfeiertag"
+    "es": "TODO Pascua"
   },
   "Eerste Pinksterdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -125,7 +125,7 @@
     "en": "Pentecost Sunday",
     "fr": "Pentecôte",
     "de": "Erster Pfingstfeiertag",
-    "es": "Erster Pfingstfeiertag"
+    "es": "TODO Pentecostés"
   },
   "Goede Vrijdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -133,7 +133,7 @@
     "en": "Good Friday",
     "fr": "Vendredi Saint",
     "de": "Karfreitag",
-    "es": "Karfreitag"
+    "es": "Viernes Santo"
   },
   "Gronings Ontzet": {
     "type": "Lokale Feestdag",
@@ -141,7 +141,7 @@
     "en": "Siege of Groningen",
     "fr": "Siège de Groningue",
     "de": "Groninger Entsatz",
-    "es": "Groninger Entsatz"
+    "es": "TODO"
   },
   "Halloween": {
     "type": "Feestavond",
@@ -157,7 +157,7 @@
     "en": "Ascension Day",
     "fr": "Ascension",
     "de": "Christi Himmelfahrt",
-    "es": "Christi Himmelfahrt"
+    "es": "Día de la Ascensión"
   },
   "Inname van Den Briel": {
     "type": "Lokale Feestdag",
@@ -165,7 +165,15 @@
     "en": "Capture of Brielle",
     "fr": "Prise de La Brielle",
     "de": "Einname van Den Briel",
-    "es": "Einname van Den Briel"
+    "es": "Toma de Brielle"
+  },
+  "Internationale Vrouwendag": {
+    "type": "Feestdag",
+    "url": "https://nl.wikipedia.org/wiki/Internationale_Vrouwendag",
+    "en": "International Women's Day",
+    "fr": "Journée internationale des femmes",
+    "de": "Internationaler Frauentag",
+    "es": "Día Internacional de la Mujer"
   },
   "Kerstavond": {
     "type": "Feestavond",
@@ -173,7 +181,7 @@
     "en": "Christmas Eve",
     "fr": "Réveillon de Noël",
     "de": "Heiliger Abend",
-    "es": "Heiliger Abend"
+    "es": "Nochebuena"
   },
   "Ketikoti": {
     "type": "Lokale Feestdag",
@@ -181,7 +189,7 @@
     "en": "Ketikoti – Abolition of Slavery",
     "fr": "Ketikoti – Abolition de l’esclavage",
     "de": "Ketikoti – Abschaffung der Sklaverei",
-    "es": "Ketikoti – Abschaffung der Sklaverei"
+    "es": "Ketikoti – Abolición de la esclavitud"
   },
   "Koninginnedag": {
     "type": "Nationale Feestdag",
@@ -189,7 +197,7 @@
     "en": "Queen's Day",
     "fr": "Fête de la Reine",
     "de": "Königinnentag",
-    "es": "Königinnentag"
+    "es": "Día de la Reina"
   },
   "Koningsdag": {
     "type": "Nationale Feestdag",
@@ -197,7 +205,7 @@
     "en": "King's Day",
     "fr": "Fête du Roi",
     "de": "Königstag",
-    "es": "Königstag"
+    "es": "Día del Rey"
   },
   "Leids Ontzet": {
     "type": "Lokale Feestdag",
@@ -205,7 +213,7 @@
     "en": "Siege of Leiden",
     "fr": "Siège de Leyde",
     "de": "Leidener Entsatz",
-    "es": "Leidener Entsatz"
+    "es": "TODO"
   },
   "Moederdag": {
     "type": "Feestdag",
@@ -213,7 +221,7 @@
     "en": "Mother's Day",
     "fr": "Fête des mères",
     "de": "Muttertag",
-    "es": "Muttertag"
+    "es": "Día de la Madre"
   },
   "Naturalisatiedag": {
     "type": "Feestdag",
@@ -221,7 +229,7 @@
     "en": "Naturalisation's Day",
     "fr": "Journée de la naturalisation",
     "de": "Naturalisationstag",
-    "es": "Naturalisationstag"
+    "es": "Día de la naturalización"
   },
   "Nieuwjaarsdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -229,7 +237,7 @@
     "en": "New Year's Day",
     "fr": "Jour de l’an",
     "de": "Neujahrstag",
-    "es": "Neujahrstag"
+    "es": "Año Nuevo"
   },
   "Oudejaarsavond": {
     "type": "Feestavond",
@@ -237,7 +245,7 @@
     "en": "New Year's Eve",
     "fr": "Réveillon de la Saint-Sylvestre",
     "de": "Silvester",
-    "es": "Silvester"
+    "es": "Nochevieja"
   },
   "Prinsjesdag": {
     "type": "Feestdag",
@@ -245,7 +253,7 @@
     "en": "Prince's Day",
     "fr": "Jour des petits princes",
     "de": "Prinzentag",
-    "es": "Prinzentag"
+    "es": "Día de los príncipes"
   },
   "Secretaressedag": {
     "type": "Feestdag",
@@ -253,7 +261,7 @@
     "en": "Administrative Professionals' Day",
     "fr": "Fête des secrétaires",
     "de": "Sekretärinnentag",
-    "es": "Sekretärinnentag"
+    "es": "Día del secretario"
   },
   "Sinterklaasavond": {
     "type": "Feestavond",
@@ -261,7 +269,7 @@
     "en": "St. Nicholas' Eve",
     "fr": "Réveillon de la Saint Nicolas",
     "de": "Nikolausabend",
-    "es": "Nikolausabend"
+    "es": "Fiesta de San Nicolás"
   },
   "Sint-Maarten": {
     "type": "Feestavond",
@@ -269,7 +277,7 @@
     "en": "St. Martin's Day",
     "fr": "Saint Martin",
     "de": "Martinstag",
-    "es": "Martinstag"
+    "es": "Fiesta de San Martín"
   },
   "Tweede Kerstdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -277,7 +285,7 @@
     "en": "Boxing Day",
     "fr": "Lendemain de Noël",
     "de": "Zweiter Weihnachtsfeiertag",
-    "es": "Zweiter Weihnachtsfeiertag"
+    "es": "TODO Navidad"
   },
   "Tweede Paasdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -285,7 +293,7 @@
     "en": "Easter Monday",
     "fr": "Lundi de Pâques",
     "de": "Zweiter Osterfeiertag",
-    "es": "Zweiter Osterfeiertag"
+    "es": "TODO Pascua"
   },
   "Tweede Pinksterdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -293,7 +301,7 @@
     "en": "Pentecost Monday",
     "fr": "Lundi de Pentecôte",
     "de": "Zweiter Pfingstfeiertag",
-    "es": "Zweiter Pfingstfeiertag"
+    "es": "TODO Pentecostés"
   },
   "Vaderdag": {
     "type": "Feestdag",
@@ -301,7 +309,7 @@
     "en": "Father's Day",
     "fr": "Fête des pères",
     "de": "Vatertag",
-    "es": "Vatertag"
+    "es": "Día del Padre"
   },
   "Valentijnsdag": {
     "type": "Feestdag",
@@ -309,7 +317,7 @@
     "en": "Valentine's Day",
     "fr": "Saint Valentin",
     "de": "Valentinstag",
-    "es": "Valentinstag"
+    "es": "Día de San Valentín"
   },
   "Veteranendag": {
     "type": "Feestdag",
@@ -317,7 +325,7 @@
     "en": "Veterans Day",
     "fr": "Journée des anciens combattants",
     "de": "Veteranentag",
-    "es": "Veteranentag"
+    "es": "Día de los veteranos"
   },
   "Wintertijd - uur achteruit": {
     "type": "Infrastructuurwijziging",
@@ -325,7 +333,7 @@
     "en": "Winter Time",
     "fr": "Heure d’hiver",
     "de": "Winterzeit",
-    "es": "Winterzeit"
+    "es": "Horario de invierno"
   },
   "Zomertijd - uur vooruit": {
     "type": "Infrastructuurwijziging",
@@ -333,6 +341,6 @@
     "en": "Summer Time",
     "fr": "Heure d’été",
     "de": "Sommerzeit",
-    "es": "Sommerzeit"
+    "es": "Horario de verano"
   }
 }
