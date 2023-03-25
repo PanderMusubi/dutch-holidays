@@ -1,8 +1,10 @@
-Dutch Holidays
-==============
+# Dutch Holidays
 
-Introduction
-------------
+> <em>I find television very educational. Every time someone switches it on I go
+into another room and read a good book.</em> — Groucho Marx (1890 – 1977)
+American Jewish comedian, film star and one of the Marx Brothers
+
+## Introduction
 
 This project offers an overview of Dutch holidays (Nederlandse feestdagen) from
 2010 until the year 2050. The available are:
@@ -19,8 +21,7 @@ exist but with a different meaning or with a different date. Examples that are
 prone for confusion with English are Liberation Day, Mothers' Day, Fathers' Day,
 Veterans Day etcetera.
 
-Scope
------
+## Scope
 
 Public holidays in the Netherlands can be official or non-official, can be free
 from work or not, can be national, regional or local and can be religious. This
@@ -54,8 +55,7 @@ and
 [Fêtes et jours fériés aux Pays-Bas](https://fr.wikipedia.org/wiki/F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s_aux_Pays-Bas)
 on Wikipedia.
 
-Usage
------
+## Usage
 
 The calendars provided here are in iCalendar or ICS format. Calendar software
 that can display these holiday calendars are:
@@ -91,8 +91,7 @@ that also got another date. Most software will have a maximum update frequency
 of once a week, which is fine for these calendars. Syncing should also
 configured to take place only from server to client, computer or phone.
 
-Dutch version
--------------
+## Dutch version
 
 The calendar with Dutch Holidays in Dutch can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
@@ -100,8 +99,7 @@ The calendar with Dutch Holidays in Dutch can be found at:
 
 ![QR code for Dutch stable version hosted by Thunderbird](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.thunderbird.net%2Fmedia%2Fcaldata%2FDutchHolidays.ics)
 
-English version
----------------
+## English version
 
 The calendar with Dutch Holidays in English (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
@@ -109,8 +107,7 @@ The calendar with Dutch Holidays in English (with Dutch translation) can be foun
 
 ![QR code for English stable version hosted by Thunderbird](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.thunderbird.net%2Fmedia%2Fcaldata%2FDutchHolidaysEnglish.ics)
 
-German version
---------------
+## German version
 
 The calendar with Dutch Holidays in German (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
@@ -118,8 +115,7 @@ The calendar with Dutch Holidays in German (with Dutch translation) can be found
 
 ![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)-->
 
-French version
---------------
+## French version
 
 The calendar with Dutch Holidays in French (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/JoursFeriesAuxPaysBas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
@@ -127,8 +123,7 @@ The calendar with Dutch Holidays in French (with Dutch translation) can be found
 
 ![QR code for French stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysFrench.ics)-->
 
-Spanish version
----------------
+## Spanish version
 
 The calendar with Dutch Holidays in Spanish (with Dutch translation) can be found at:
 * development version https://raw.github.com/PanderMusubi/dutch-holidays/master/VacacionesHolandesas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
@@ -136,8 +131,7 @@ The calendar with Dutch Holidays in Spanish (with Dutch translation) can be foun
 
 ![QR code for Spanish stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysSpanish.ics)-->
 
-Maintenance
------------
+## Maintenance
 
 The files are generated from the directories `scripted-holidays`,
 `unscripted-holidays` and `templates` by running `generate.py`. This
@@ -152,8 +146,7 @@ Calendars that have been generated can be validated by:
 * http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FVacacionesHolandesas.ics
 
 
-See also
---------
+## See also
 
 See also the following websites:
 * https://www.timeanddate.com/holidays/netherlands/
