@@ -47,6 +47,22 @@
     "de": "Infrastrukturanpassung",
     "es": "Cambio de Infraestructura"
   },
+  "Allerheiligen": {
+    "type": "Feestdag",
+    "url": "https://nl.wikipedia.org/wiki/Allerheiligen",
+    "en": "All Saints' Day",
+    "fr": "Toussaint",
+    "de": "Allerheiligen",
+    "es": "Día de Todos los Santos"
+  },
+  "Allerzielen": {
+    "type": "Feestdag",
+    "url": "https://nl.wikipedia.org/wiki/Allerzielen",
+    "en": "All Souls' Day",
+    "fr": "Commémoration de tous les fidèles défunts",
+    "de": "Allerseelen",
+    "es": "Día de Todos los Santos"
+  },
   "Alkmaars Ontzet": {
     "type": "Lokale Feestdag",
     "url": "https://nl.wikipedia.org/wiki/Alkmaars_Ontzet",
@@ -109,7 +125,7 @@
     "en": "Christmas Day",
     "fr": "Noël",
     "de": "Erster Weihnachtsfeiertag",
-    "es": "TODO Navidad"
+    "es": "Navidad"
   },
   "Eerste Paasdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -117,7 +133,7 @@
     "en": "Easter Sunday",
     "fr": "Pâques",
     "de": "Erster Osterfeiertag",
-    "es": "TODO Pascua"
+    "es": "Pascua"
   },
   "Eerste Pinksterdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -125,7 +141,7 @@
     "en": "Pentecost Sunday",
     "fr": "Pentecôte",
     "de": "Erster Pfingstfeiertag",
-    "es": "TODO Pentecostés"
+    "es": "Pentecostés"
   },
   "Goede Vrijdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -141,7 +157,7 @@
     "en": "Siege of Groningen",
     "fr": "Siège de Groningue",
     "de": "Groninger Entsatz",
-    "es": "TODO"
+    "es": "Asedio de Groninga"
   },
   "Halloween": {
     "type": "Feestavond",
@@ -213,7 +229,7 @@
     "en": "Siege of Leiden",
     "fr": "Siège de Leyde",
     "de": "Leidener Entsatz",
-    "es": "TODO"
+    "es": "Asedio de Leiden"
   },
   "Moederdag": {
     "type": "Feestdag",
@@ -285,7 +301,7 @@
     "en": "Boxing Day",
     "fr": "Lendemain de Noël",
     "de": "Zweiter Weihnachtsfeiertag",
-    "es": "TODO Navidad"
+    "es": "Segundo día de Navidad"
   },
   "Tweede Paasdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -293,7 +309,7 @@
     "en": "Easter Monday",
     "fr": "Lundi de Pâques",
     "de": "Zweiter Osterfeiertag",
-    "es": "TODO Pascua"
+    "es": "Lunes de Pascua"
   },
   "Tweede Pinksterdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -301,7 +317,7 @@
     "en": "Pentecost Monday",
     "fr": "Lundi de Pentecôte",
     "de": "Zweiter Pfingstfeiertag",
-    "es": "TODO Pentecostés"
+    "es": "Lunes de Pentecostés"
   },
   "Vaderdag": {
     "type": "Feestdag",
