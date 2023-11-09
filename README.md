@@ -102,12 +102,12 @@ The calendar with Dutch Holidays in Spanish (with Dutch translation) can be foun
 
 The files are generated from the directories `scripted-holidays`, `unscripted-holidays` and `templates` by running `generate.py`. This will output `*.ics` files. The script `report.sh` will write a short overview in `names-used-*.txt`.
 
-Calendars that have been generated can be validated by:
+<!--Calendars that have been generated can be validated by:
 - http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNederlandseFeestdagen.ics
 - http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FDutchHolidays.ics
 - http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FNiederlaendischeFeiertage.ics
 - http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FJoursFeriesAuxPaysBas.ics
-- http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FVacacionesHolandesas.ics
+- http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FVacacionesHolandesas.ics-->
 
 
 ## See also
