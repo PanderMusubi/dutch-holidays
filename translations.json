@@ -11,6 +11,12 @@
     "de": "NiederlaendischeFeiertage.ics",
     "es": "VacacionesHolandesas.ics"
   },
+  "Officieel": {
+    "en": "Official",
+    "fr": "TODO",
+    "de": "TODO",
+    "es": ""
+  },
   "Nationale Feestdag": {
     "en": "National Holiday",
     "fr": "Fête Nationale",
@@ -342,6 +348,14 @@
     "fr": "Journée des anciens combattants",
     "de": "Veteranentag",
     "es": "Día de los veteranos"
+  },
+  "Witte Donderdag": {
+    "type": "Feestdag",
+    "url": "https://nl.wikipedia.org/wiki/Witte_Donderdag",
+    "en": "Maundy Thursday",
+    "fr": "Jeudi Saint",
+    "de": "Gründonnerstag",
+    "es": "Jueves Santo"
   },
   "Wintertijd - uur achteruit": {
     "type": "Infrastructuurwijziging",
