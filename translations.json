@@ -77,6 +77,14 @@
     "de": "Alkmaarder Entsatz",
     "es": "Asedio de Alkmaar"
   },
+  "Aswoensdag": {
+    "type": "Feestdag",
+    "url": "https://nl.wikipedia.org/wiki/Aswoensdag",
+    "en": "Ash Wednesday",
+    "fr": "Mercredi des Cendres",
+    "de": "Aschermittwoch",
+    "es": "Miércoles de Ceniza"
+  },
   "Bevrijdingsdag": {
     "type": "Nationale Feestdag",
     "url": "https://nl.wikipedia.org/wiki/Bevrijdingsdag",
