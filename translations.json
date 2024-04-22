@@ -112,17 +112,17 @@
   "Dierendag": {
     "type": "Feestdag",
     "url": "https://nl.wikipedia.org/wiki/Dierendag",
-    "en": "Animal Day",
+    "en": "World Animal Day",
     "fr": "Journée mondiale des Animaux",
     "de": "Welttierschutztag",
     "es": "Día de los Animales"
   },
-  "Dodenherdenking": {
+  "Nationale Dodenherdenking": {
     "type": "Feestavond",
     "url": "https://nl.wikipedia.org/wiki/Nationale_Dodenherdenking",
     "en": "Remembrance of the Dead",
     "fr": "Journée nationale du souvenir",
-    "de": "Volkstrauertag",
+    "de": "Nationaler Totengedenktag",
     "es": "Día de la Conmemoración"
   },
   "Driekoningen": {
