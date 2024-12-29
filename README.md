@@ -109,10 +109,43 @@ The files are generated from the directories `scripted-holidays`, `unscripted-ho
 - http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FJoursFeriesAuxPaysBas.ics
 - http://severinghaus.org/projects/icv/?url=https%3A%2F%2Fraw.github.com%2FPanderMusubi%2Fdutch-holidays%2Fmaster%2FVacacionesHolandesas.ics-->
 
-
 ## See also
 
 See also the following websites:
 - https://www.timeanddate.com/holidays/netherlands/
 - https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
 - https://www.wettelijke-feestdagen.nl/
+
+## Migration
+
+The source data and translation for Dutch holiday calendars are slowly migrated to date-holidays. Stay tuned for more information. The ICS format calendar URLs offered here will remain here.
+
+Here are some notes for using date-holidays. Rlevant data for the Netherlands is stored in `data/countries/NL.yaml` and `data/names.yaml`.
+
+A build is done with
+
+    npm run lint
+    npm run build
+    npm run yaml
+    npm test
+    npm install
+
+To generate Dutch holidays for a specific year in JSON format, run
+
+    node test/sample.js nl 2025
+
+and for translation in another language than Dutch, run
+
+    node test/sample.js nl 2025 --lang en
+    node test/sample.js nl 2025 --lang de
+    node test/sample.js nl 2025 --lang fr
+    node test/sample.js nl 2025 --lang es
+    node test/sample.js nl 2025 --lang it
+
+See also https://github.com/commenthol/date-holidays-ical where a buid is done with
+
+    npm run lint
+    npm run build
+    npm test
+    npm install
+
