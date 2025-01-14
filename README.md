@@ -137,10 +137,10 @@ To generate Dutch holidays for a specific year in JSON format, run
 and for translation in another language than Dutch, run
 
     node test/sample.js nl 2025 --lang en
-    node test/sample.js nl 2025 --lang de
-    node test/sample.js nl 2025 --lang fr
-    node test/sample.js nl 2025 --lang es
-    node test/sample.js nl 2025 --lang it
+    node test/sample.js nl.GR.GRN 2025 --lang de
+    node test/sample.js nl.NH.ALK 2025 --lang fr
+    node test/sample.js nl.ZH.LDN 2025 --lang es
+    node test/sample.js nl.ZH.BRL 2025 --lang it --short
 
 See also https://github.com/commenthol/date-holidays-ical where a buid is done with
 
@@ -149,3 +149,12 @@ See also https://github.com/commenthol/date-holidays-ical where a buid is done w
     npm test
     npm install
 
+
+    pip install -Ur requirement.txt
+    pip install -Ur requirement_dev.txt
+    
+    
+    https://icalendar.org/validator.html
+    https://icalvalidator.com/index.html
+    
+    perl -pi -e 'chomp if eof' NL-??-20??.json

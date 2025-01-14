@@ -323,15 +323,6 @@
     "es": "Día de los príncipes",
     "it": "Giorno del principe"
   },
-  "Secretaressedag": {
-    "type": "Feestdag",
-    "url": "https://nl.wikipedia.org/wiki/Secretaressedag",
-    "en": "Administrative Professionals' Day",
-    "fr": "Fête des secrétaires",
-    "de": "Sekretärinnentag",
-    "es": "Día del secretario",
-    "it": "Giorno del segretario"
-  },
   "Sinterklaasavond": {
     "type": "Feestavond",
     "url": "https://nl.wikipedia.org/wiki/Sinterklaasfeest",
