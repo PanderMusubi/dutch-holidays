@@ -14,7 +14,7 @@ dtstamp = utcnow.strftime('%Y%m%dT%H%M%SZ')
 uid_format = 'UID:%(date)s-%(pid)d-%(seq)04d-%(lang)s@%(domain)s\n'
 uid_replace_values = {
     'date': dtstamp,
-    'pid':  getpid(),
+    'pid': getpid(),
     'domain': getfqdn()
 }
 event_seq = 1
