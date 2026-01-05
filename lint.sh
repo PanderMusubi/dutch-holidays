@@ -1,16 +1,16 @@
 #!/usr/bin/env sh
 
-echo '* CHECKBASISMS'
-checkbashisms *.sh
-
+. .venv/bin/activate
 FILES=*.py
-echo '*PYDOCSTYLE'
+echo '* PYDOCSTYLE'
 pydocstyle --convention=numpy $FILES
 echo '* FLAKE8'
-flake8 --ignore E501 $FILES
+flake8 --ignore=E501 $FILES
 echo '* PYLINT'
-pylint $FILES
+pylint --disable=C0301 $FILES
 echo '* PYFLAKES'
 pyflakes $FILES
+echo '* PYRIGHT-ALRIGHT'
+pyright-alright $FILES
 echo '* MYPY'
-mypy --ignore-missing-imports $FILES
+mypy $FILES

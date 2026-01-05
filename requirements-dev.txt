@@ -6,3 +6,5 @@ pydocstyle
 pyflakes
 pylint
 pyright-alright
+
+types-icalendar

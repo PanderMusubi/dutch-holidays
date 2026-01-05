@@ -78,7 +78,6 @@ for holiday_file in sorted(listdir(directory)):
         calendrier.write(f'{holiday_header.strip()}{naam} ({translations[naam]["fr"]})\n')
         Kalender.write(f'{holiday_header.strip()}{naam} ({translations[naam]["de"]})\n')
         calendario.write(f'{holiday_header.strip()}{naam} ({translations[naam]["es"]})\n')
-        print(naam)
         calendario_it.write(f'{holiday_header.strip()}{naam} ({translations[naam]["it"]})\n')
 
         # write event UID and autoincrement
@@ -149,7 +148,6 @@ for holiday_file in sorted(listdir(directory)):
             calendrier.write(f'{holiday_header.strip()}{naam} ({translations[naam]["fr"]})\n')
             Kalender.write(f'{holiday_header.strip()}{naam} ({translations[naam]["de"]})\n')
             calendario.write(f'{holiday_header.strip()}{naam} ({translations[naam]["es"]})\n')
-            print(naam)
             calendario_it.write(f'{holiday_header.strip()}{naam} ({translations[naam]["it"]})\n')
 
             # write event UID and autoincrement
