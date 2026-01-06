@@ -2,22 +2,13 @@
 """Generate ICS files in Dutch and English for Dutch holidays."""
 
 from datetime import datetime, timedelta
-from os import getpid, listdir
-from socket import getfqdn
+from hashlib import sha256
+from os import listdir
 from json import load
 
 # date and time
 utcnow = datetime.utcnow()
 dtstamp = utcnow.strftime('%Y%m%dT%H%M%SZ')
-
-# event UID
-uid_format = 'UID:%(date)s-%(pid)d-%(seq)04d-%(lang)s@%(domain)s\n'
-uid_replace_values = {
-    'date': dtstamp,
-    'pid': getpid(),
-    'domain': getfqdn()
-}
-event_seq = 1
 
 # translations
 translations = load(open('translations.json'))  # pylint:disable=consider-using-with,unspecified-encoding
@@ -80,31 +71,10 @@ for holiday_file in sorted(listdir(directory)):
         calendario.write(f'{holiday_header.strip()}{naam} ({translations[naam]["es"]})\n')
         calendario_it.write(f'{holiday_header.strip()}{naam} ({translations[naam]["it"]})\n')
 
-        # write event UID and autoincrement
-        kalender.write(uid_format % (dict(list(uid_replace_values.items()) +
-                                          list({'lang': 'nl',
-                                                'seq': event_seq}.items())
-                                          )))
-        calendar.write(uid_format % (dict(list(uid_replace_values.items()) +
-                                          list({'lang': 'en',
-                                                'seq': event_seq}.items())
-                                          )))
-        calendrier.write(uid_format % (dict(list(uid_replace_values.items()) +
-                                            list({'lang': 'fr',
-                                                  'seq': event_seq}.items())
-                                            )))
-        Kalender.write(uid_format % (dict(list(uid_replace_values.items()) +
-                                          list({'lang': 'de',
-                                                'seq': event_seq}.items()))))
-        calendario.write(uid_format % (dict(list(uid_replace_values.items()) +
-                                            list({'lang': 'es',
-                                                  'seq': event_seq}.items()))))
-        calendario_it.write(uid_format % (dict(list(uid_replace_values.items()) +
-                                               list({'lang': 'it',
-                                                     'seq': event_seq}.items()))))
-        event_seq += 1
-
+        datum = ''
         for line in holiday:
+            if 'DTSTART;VALUE=DATE:' in line:
+                datum = line.split('DTSTART;VALUE=DATE:', 1)[1].split('\n')[0]
             kalender.write(line)
             calendar.write(line)
             calendrier.write(line)
@@ -112,6 +82,20 @@ for holiday_file in sorted(listdir(directory)):
             calendario.write(line)
             calendario_it.write(line)
 
+        # write UID
+        uid = sha256((naam + datum + 'nl').encode()).hexdigest()[:16]
+        kalender.write(f'UID:{uid}@github.com/pandermusubi\n')
+        uid = sha256((translations[naam]['en'] + datum + 'en').encode()).hexdigest()[:16]
+        calendar.write(f'UID:{uid}@github.com/pandermusubi\n')
+        uid = sha256((translations[naam]['fr'] + datum + 'fr').encode()).hexdigest()[:16]
+        calendrier.write(f'UID:{uid}@github.com/pandermusubi\n')
+        uid = sha256((translations[naam]['de'] + datum + 'de').encode()).hexdigest()[:16]
+        Kalender.write(f'UID:{uid}@github.com/pandermusubi\n')
+        uid = sha256((translations[naam]['es'] + datum + 'es').encode()).hexdigest()[:16]
+        calendario.write(f'UID:{uid}@github.com/pandermusubi\n')
+        uid = sha256((translations[naam]['it'] + datum + 'it').encode()).hexdigest()[:16]
+        calendario_it.write(f'UID:{uid}@github.com/pandermusubi\n')
+        
         # write event URL attachment
         kalender.write(f'ATTACH:{translations[naam]["url"]}\n')
         calendar.write(f'ATTACH:{translations[naam]["url"]}\n')
@@ -150,28 +134,21 @@ for holiday_file in sorted(listdir(directory)):
             calendario.write(f'{holiday_header.strip()}{naam} ({translations[naam]["es"]})\n')
             calendario_it.write(f'{holiday_header.strip()}{naam} ({translations[naam]["it"]})\n')
 
-            # write event UID and autoincrement
-            kalender.write(uid_format % (dict(
-                list(uid_replace_values.items()) +
-                list({'lang': 'nl', 'seq': event_seq}.items()))))
-            calendar.write(uid_format % (dict(
-                list(uid_replace_values.items()) +
-                list({'lang': 'en', 'seq': event_seq}.items()))))
-            calendrier.write(uid_format % (dict(
-                list(uid_replace_values.items()) +
-                list({'lang': 'fr', 'seq': event_seq}.items()))))
-            Kalender.write(uid_format % (dict(
-                list(uid_replace_values.items()) +
-                list({'lang': 'de', 'seq': event_seq}.items()))))
-            calendario.write(uid_format % (dict(
-                list(uid_replace_values.items()) +
-                list({'lang': 'es', 'seq': event_seq}.items()))))
-            calendario_it.write(uid_format % (dict(
-                list(uid_replace_values.items()) +
-                list({'lang': 'it', 'seq': event_seq}.items()))))
-            event_seq += 1
-
             date = datetime.strptime(line.strip(), '%Y%m%d')
+            # write UID
+            uid = sha256((naam + date.strftime("%Y%m%d") + 'nl').encode()).hexdigest()[:16]
+            kalender.write(f'UID:{uid}@github.com/pandermusubi\n')
+            uid = sha256((translations[naam]['en'] + date.strftime("%Y%m%d") + 'en').encode()).hexdigest()[:16]
+            calendar.write(f'UID:{uid}@github.com/pandermusubi\n')
+            uid = sha256((translations[naam]['fr'] + date.strftime("%Y%m%d") + 'fr').encode()).hexdigest()[:16]
+            calendrier.write(f'UID:{uid}@github.com/pandermusubi\n')
+            uid = sha256((translations[naam]['de'] + date.strftime("%Y%m%d") + 'de').encode()).hexdigest()[:16]
+            Kalender.write(f'UID:{uid}@github.com/pandermusubi\n')
+            uid = sha256((translations[naam]['es'] + date.strftime("%Y%m%d") + 'es').encode()).hexdigest()[:16]
+            calendario.write(f'UID:{uid}@github.com/pandermusubi\n')
+            uid = sha256((translations[naam]['it'] + date.strftime("%Y%m%d") + 'it').encode()).hexdigest()[:16]
+            calendario_it.write(f'UID:{uid}@github.com/pandermusubi\n')
+
             kalender.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
             calendar.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
             calendrier.write(f'DTSTART;VALUE=DATE:{date.strftime("%Y%m%d")}\n')
