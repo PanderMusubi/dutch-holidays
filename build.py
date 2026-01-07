@@ -8,7 +8,6 @@ from json import load
 
 # date and time
 utcnow = datetime.utcnow()
-dtstamp = utcnow.strftime('%Y%m%dT%H%M%SZ')
 
 # translations
 translations = load(open('translations.json'))  # pylint:disable=consider-using-with,unspecified-encoding
@@ -31,25 +30,25 @@ for line in calendar_header:
     kalender.write(line)
     calendar.write(line.replace('Nederlandse Feestdagen',
                                 translations['Nederlandse Feestdagen']
-                                ['en']))
+                                ['en']).replace('//NL', '//EN'))
     calendrier.write(line.replace('Nederlandse Feestdagen',
                                   translations['Nederlandse Feestdagen']
-                                  ['fr']))
+                                  ['fr']).replace('//NL', '//FR'))
     Kalender.write(line.replace('Nederlandse Feestdagen',
                                  translations['Nederlandse Feestdagen']
-                                 ['de']))
+                                 ['de']).replace('//NL', '//DE'))
     calendario.write(line.replace('Nederlandse Feestdagen',
                                   translations['Nederlandse Feestdagen']
-                                  ['es']))
+                                  ['es']).replace('//NL', '//ES'))
     calendario_it.write(line.replace('Nederlandse Feestdagen',
                                      translations['Nederlandse Feestdagen']
-                                     ['it']))
+                                     ['it']).replace('//NL', '//IT'))
 
 # create event header
 holiday_header = ''
 event_header = open('templates/event-header.txt')  # pylint:disable=consider-using-with,unspecified-encoding
 for line in event_header:
-    holiday_header += line.replace('DTSTAMP:', f'DTSTAMP:{dtstamp}')
+    holiday_header += line.replace('DTSTAMP:', 'DTSTAMP:20091231T040000Z')
 
 # create event footer
 holiday_footer = ''
