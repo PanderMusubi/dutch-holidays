@@ -5,11 +5,11 @@
 ## Introduction
 
 This project offers an overview of Dutch holidays (Nederlandse feestdagen) from 2010 until the year 2050. The available are:
-- in Dutch: [NederlandseFeestdagen.ics](https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics)
-- in English: [DutchHolidays.ics](https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics)
-- in German: [NiederlaendischeFeiertage.ics](https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics)
-- in French: [JoursFeriesAuxPaysBas.ics](https://raw.github.com/PanderMusubi/dutch-holidays/master/JoursFeriesAuxPaysBas.ics)
-- in Spanish: [VacacionesHolandesas.ics](https://raw.github.com/PanderMusubi/dutch-holidays/master/VacacionesHolandesas.ics)
+- in Dutch: [NederlandseFeestdagen.ics](webcal://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics)
+- in English: [DutchHolidays.ics](webcal://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics)
+- in German: [NiederlaendischeFeiertage.ics](webcal://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics)
+- in French: [JoursFeriesAuxPaysBas.ics](webcal://raw.github.com/PanderMusubi/dutch-holidays/master/JoursFeriesAuxPaysBas.ics)
+- in Spanish: [VacacionesHolandesas.ics](webcal://raw.github.com/PanderMusubi/dutch-holidays/master/VacacionesHolandesas.ics)
 
 In the non-Dutch versions, the Dutch name is used first first and the translation is in brackets. This is because not all holidays can be unambiguously translated, they do not exist in the other language or they do exist but with a different meaning or with a different date. Examples that are prone for confusion with English are Liberation Day, Mothers' Day, Fathers' Day, Veterans Day etc.
 
@@ -41,19 +41,19 @@ The calendars provided here are in iCalendar or ICS format. Calendar software th
 
 See also this [list of applications with iCalendar support](https://en.wikipedia.org/wiki/List_of_applications_with_iCalendar_support) on Wikipedia, with many more native calendar clients and web-based systems such as Nextcloud. Please note that many CMS software support displaying ICS calendars.
 
-[<img alt="example mobile" src="example-mobile.png?raw=true" width="50%" />](https://raw.github.com/PanderMusubi/dutch-holidays/master/example-mobile.png)
+[<img alt="example mobile" src="example-mobile.png" width="50%" />](example-mobile.png)
 
 Most calendar software can show these Dutch holidays to a color of your choice. Also in some software, a distinction in colour can be configured according to the calendar categories `Public Holiday` and `Unofficial Public Holiday`.
 
-[![example](example.png?raw=true)](https://raw.github.com/PanderMusubi/dutch-holidays/master/example.png)
+[![example](example.png)](example.png)
 
 Warning: Please, do **not** import these ICS files into your calendar as they will be added only once and never get updated. Add these calendars as a shared (read-only) network calendar. These calendars do not need frequent updates, however, sometimes bugs are fixed, future years are added or holidays change in date or in name. See for example the transition from Queen's Day to King's Day, that also got another date. Most software will have a maximum update frequency of once a week, which is fine for these calendars. Syncing should also configured to take place only from server to client, computer or phone.
 
 ## Dutch version
 
 The calendar with Dutch Holidays in Dutch can be found at:
-- development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-- stable version https://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidays.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
+- development version webcal://raw.github.com/PanderMusubi/dutch-holidays/master/NederlandseFeestdagen.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+- stable version webcal://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidays.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
 <!--* stable version https://www.thunderbird.net/media/caldata/DutchHolidays.ics
 hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/),
 see also the QR code below.
@@ -63,8 +63,8 @@ see also the QR code below.
 ## English version
 
 The calendar with Dutch Holidays in English (with Dutch translation) can be found at:
-- development version https://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-- stable version https://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidaysEnglish.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
+- development version webcal://raw.github.com/PanderMusubi/dutch-holidays/master/DutchHolidays.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+- stable version webcal://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidaysEnglish.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
 <!--* stable version
 https://www.thunderbird.net/media/caldata/DutchHolidaysEnglish.ics hosted by
 [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also
@@ -75,8 +75,8 @@ the QR code below.
 ## German version
 
 The calendar with Dutch Holidays in German (with Dutch translation) can be found at:
-- development version https://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-- stable version https://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidaysGerman.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
+- development version webcal://raw.github.com/PanderMusubi/dutch-holidays/master/NiederlaendischeFeiertage.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+- stable version webcal://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidaysGerman.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
 <!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysGerman.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
 ![QR code for German stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysGerman.ics)-->
@@ -84,8 +84,8 @@ The calendar with Dutch Holidays in German (with Dutch translation) can be found
 ## French version
 
 The calendar with Dutch Holidays in French (with Dutch translation) can be found at:
-- development version https://raw.github.com/PanderMusubi/dutch-holidays/master/JoursFeriesAuxPaysBas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-- stable version https://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidaysFrench.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
+- development version webcal://raw.github.com/PanderMusubi/dutch-holidays/master/JoursFeriesAuxPaysBas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+- stable version webcal://raw.githubusercontent.com/thundernest/thunderbird-website/master/media/caldata/DutchHolidaysFrench.ics hosted by [Thunderbird Github](https://github.com/thundernest/thunderbird-website).
 <!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysFrench.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
 ![QR code for French stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysFrench.ics)-->
@@ -93,8 +93,8 @@ The calendar with Dutch Holidays in French (with Dutch translation) can be found
 ## Spanish version
 
 The calendar with Dutch Holidays in Spanish (with Dutch translation) can be found at:
-- development version https://raw.github.com/PanderMusubi/dutch-holidays/master/VacacionesHolandesas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
-<!--* stable version https://www.mozilla.org/media/caldata/DutchHolidaysSpanish.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
+- development version webcal://raw.github.com/PanderMusubi/dutch-holidays/master/VacacionesHolandesas.ics hosted by [GitHub](https://github.com/PanderMusubi/dutch-holidays)
+<!--* stable version webcal://www.mozilla.org/media/caldata/DutchHolidaysSpanish.ics hosted by [Thunderbird](https://www.thunderbird.net/en-US/calendar/holidays/), see also the QR code below.
 
 ![QR code for Spanish stable version hosted by Mozilla](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fwww.mozilla.org%2Fmedia%2Fcaldata%2FDutchHolidaysSpanish.ics)-->
 
