@@ -4,63 +4,72 @@
     "fr": "Jours Fériés aux Pays Bas",
     "de": "Niederländische Feiertage",
     "es": "Días Festivos Neerlandeses",
-    "it": "Giorni Festivi Olandesi"
+    "it": "Giorni Festivi Olandesi",
+    "gr": "Ολλανδικές διακοπές"
   },
   "NederlandseFeestdagen.ics": {
     "en": "DutchHolidays.ics",
     "fr": "JoursFeriesAuxPaysBas.ics",
     "de": "NiederlaendischeFeiertage.ics",
     "es": "DiasFestivosNeerlandeses.ics",
-    "it": "GiorniFestiviOlandesi.ics"
+    "it": "GiorniFestiviOlandesi.ics",
+    "gr": "OllandikesDiakopes.ics"
   },
   "TODOOfficieel": {
     "en": "TODOOfficial",
     "fr": "TODOOfficiel",
     "de": "TODOOffizieller",
     "es": "TODOOficial",
-    "it": "TODOUfficiale"
+    "it": "TODOUfficiale",
+    "gr": "TODOΕπίσημα"
   },
   "Nationale Feestdag": {
     "en": "National Holiday",
     "fr": "Fête Nationale",
     "de": "Nationalfeiertag",
     "es": "Fiesta Nacional",
-    "it": "Festa Nazionale"
+    "it": "Festa Nazionale",
+    "gr": "Ημέρα Πολιτογράφησης"
   },
   "Algemeen Erkende Feestdag": {
     "en": "Public Holiday",
     "fr": "Jour Férié",
     "de": "Allgemein Anerkannte Feiertag",
     "es": "Día Festivo Legal",
-    "it": "Giorno Festivo Ufficiale"
+    "it": "Giorno Festivo Ufficiale",
+    "gr": "Δημόσια αργία"
   },
   "Feestdag": {
     "en": "Holiday",
     "fr": "Fête",
     "de": "Feiertag",
     "es": "Día Festivo",
-    "it": "Giorno Festivo"
+    "it": "Giorno Festivo",
+    "gr": "Αργία τράπεζων"
   },
   "Feestavond": {
     "en": "Evening Celebration",
     "fr": "Réveillon",
     "de": "Abendfeier",
     "es": "Noche de Fiesta",
-    "it": "Notte di Festa"
+    "it": "Notte di Festa",
+    "gr": "Βραδιά πάρτι"
   },
   "Lokale Feestdag": {
     "en": "Local Holiday",
     "fr": "Fête Régionale",
     "de": "Localer Feiertag",
     "es": "Fiesta Local",
-    "it": "Festività Locale"
+    "it": "Festività Locale",
+    "gr": "Τοπικές αργίες"
   },
   "Infrastructuurwijziging": {
     "en": "Infrastructure Change",
     "fr": "Modifications d’Infrastructure",
     "de": "Infrastrukturanpassung",
     "es": "Cambio de Infraestructura",
-    "it": "Cambiamento Infrastrutturale"
+    "it": "Cambiamento Infrastrutturale",
+    "gr": "Αλλαγή υποδομής"
   },
   "Allerheiligen": {
     "type": "Feestdag",
@@ -69,7 +78,8 @@
     "fr": "Toussaint",
     "de": "Allerheiligen",
     "es": "Día de Todos los Santos",
-    "it": "Giorno di Tutti i Santi"
+    "it": "Giorno di Tutti i Santi",
+    "gr": "Ημέρα των Αγίων Πάντων"
   },
   "Allerzielen": {
     "type": "Feestdag",
@@ -78,7 +88,8 @@
     "fr": "Jour des morts",
     "de": "Allerseelen",
     "es": "Día de los Fieles Difuntos",
-    "it": "Giorno dei morti"
+    "it": "Giorno dei morti",
+    "gr": "Ψυχοσάββατο"
   },
   "Alkmaars Ontzet": {
     "type": "Lokale Feestdag",
@@ -87,7 +98,8 @@
     "fr": "Levée de siège d’Alkmaar",
     "de": "Alkmaarder Entsatz",
     "es": "Alivio del asedio de Alkmaar",
-    "it": "Assedio revocato di Alkmaar"
+    "it": "Assedio revocato di Alkmaar",
+    "gr": "Ανάγλυφο του Άλκμααρ"
   },
   "Aswoensdag": {
     "type": "Feestdag",
@@ -96,7 +108,8 @@
     "fr": "Mercredi des Cendres",
     "de": "Aschermittwoch",
     "es": "Miércoles de Ceniza",
-    "it": "Mercoledì delle ceneri"
+    "it": "Mercoledì delle ceneri",
+    "gr": "Τετάρτη της Τέφρας"
   },
   "Bevrijdingsdag": {
     "type": "Nationale Feestdag",
@@ -105,7 +118,8 @@
     "fr": "Jour de la libération",
     "de": "Befreiungstag",
     "es": "Día de la Liberación",
-    "it": "Giorni della liberazione"
+    "it": "Giorni della liberazione",
+    "gr": "Ημέρα Απελευθέρωσης"
   },
   "Carnaval": {
     "type": "Feestdag",
@@ -114,7 +128,8 @@
     "fr": "Carnaval",
     "de": "Karneval",
     "es": "Carnaval",
-    "it": "Carnevale"
+    "it": "Carnevale",
+    "gr": "Καρναβάλι"
   },
   "Dag van de Arbeid": {
     "type": "Feestdag",
@@ -123,7 +138,8 @@
     "fr": "Fête du Travail",
     "de": "Tag der Arbeit",
     "es": "Día del Trabajo",
-    "it": "Festa del lavoro"
+    "it": "Festa del lavoro",
+    "gr": "Ημέρα Εργασίας"
   },
   "Dierendag": {
     "type": "Feestdag",
@@ -132,7 +148,8 @@
     "fr": "Journée mondiale des Animaux",
     "de": "Welttierschutztag",
     "es": "Día de los Animales",
-    "it": "Giornata mondiale degli animali"
+    "it": "Giornata mondiale degli animali",
+    "gr": "Παγκόσμια Ημέρα των Ζώων"
   },
   "Nationale Dodenherdenking": {
     "type": "Feestavond",
@@ -141,7 +158,8 @@
     "fr": "Journée nationale du Souvenir",
     "de": "Nationaler Totengedenktag",
     "es": "Día de la Conmemoración",
-    "it": "Giorno della Commemorazione"
+    "it": "Giorno della Commemorazione",
+    "gr": "Εθνική Ημέρα Μνήμης"
   },
   "Driekoningen": {
     "type": "Lokale Feestdag",
@@ -150,7 +168,8 @@
     "fr": "Epiphanie",
     "de": "Dreikönigstag",
     "es": "Epifanía",
-    "it": "Epifania"
+    "it": "Epifania",
+    "gr": "θεοφάνεια"
   },
   "Eerste Kerstdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -159,7 +178,8 @@
     "fr": "Noël",
     "de": "Weihnachten",
     "es": "Navidad",
-    "it": "Natale"
+    "it": "Natale",
+    "gr": "Πρώτη μέρα των Χριστουγέννων"
   },
   "Eerste Paasdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -168,7 +188,8 @@
     "fr": "Pâques",
     "de": "Erster Osterfeiertag",
     "es": "Pascua",
-    "it": "Pasqua"
+    "it": "Pasqua",
+    "gr": "Κυριακή του Πάσχα"
   },
   "Eerste Pinksterdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -177,7 +198,8 @@
     "fr": "Pentecôte",
     "de": "Erster Pfingstfeiertag",
     "es": "Pentecostés",
-    "it": "Pentecoste"
+    "it": "Pentecoste",
+    "gr": "Πρώτη ημέρα της Πεντηκοστής"
   },
   "Goede Vrijdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -186,7 +208,8 @@
     "fr": "Vendredi Saint",
     "de": "Karfreitag",
     "es": "Viernes Santo",
-    "it": "Venerdì santo"
+    "it": "Venerdì santo",
+    "gr": "Μεγάλη Παρασκευή"
   },
   "Gronings Ontzet": {
     "type": "Lokale Feestdag",
@@ -195,7 +218,8 @@
     "fr": "Levée de siège de Groningue",
     "de": "Groninger Entsatz",
     "es": "Alivio del asedio de Groninga",
-    "it": "Assedio revocato di Groninga"
+    "it": "Assedio revocato di Groninga",
+    "gr": "Ανακούφιση από το Χρόνινγκεν"
   },
   "Halloween": {
     "type": "Feestavond",
@@ -204,7 +228,8 @@
     "fr": "Halloween",
     "de": "Halloween",
     "es": "Halloween",
-    "it": "Halloween"
+    "it": "Halloween",
+    "gr": "31 Οκτώβρη"
   },
   "Hemelvaartsdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -213,7 +238,8 @@
     "fr": "Ascension",
     "de": "Christi Himmelfahrt",
     "es": "Día de la Ascensión",
-    "it": "Ascensione"
+    "it": "Ascensione",
+    "gr": "Ημέρα της Αναλήψεως"
   },
   "Inname van Den Briel": {
     "type": "Lokale Feestdag",
@@ -222,7 +248,8 @@
     "fr": "Prise de La Brielle",
     "de": "Einname van Den Briel",
     "es": "Toma de Brielle",
-    "it": "Presa di Brielle"
+    "it": "Presa di Brielle",
+    "gr": "Κατάληψη του Ντεν Μπρίελ"
   },
   "Internationale Vrouwendag": {
     "type": "Feestdag",
@@ -231,7 +258,8 @@
     "fr": "Journée internationale des femmes",
     "de": "Internationaler Frauentag",
     "es": "Día Internacional de la Mujer",
-    "it": "Giornata internazionale della donna"
+    "it": "Giornata internazionale della donna",
+    "gr": "Παγκόσμια Ημέρα της Γυναίκας"
   },
   "Kerstavond": {
     "type": "Feestavond",
@@ -240,7 +268,8 @@
     "fr": "Réveillon de Noël",
     "de": "Heiliger Abend",
     "es": "Nochebuena",
-    "it": "Vigilia di Natale"
+    "it": "Vigilia di Natale",
+    "gr": "Παραμονή Χριστουγέννων"
   },
   "Ketikoti": {
     "type": "Lokale Feestdag",
@@ -249,7 +278,8 @@
     "fr": "Ketikoti – Abolition de l’esclavage",
     "de": "Ketikoti – Abschaffung der Sklaverei",
     "es": "Ketikoti – Abolición de la esclavitud",
-    "it": "Ketikoti – abolizione della schiavitù"
+    "it": "Ketikoti – abolizione della schiavitù",
+    "gr": "Κετίκοτι - Κατάργηση της δουλείας"
   },
   "Koninginnedag": {
     "type": "Nationale Feestdag",
@@ -258,7 +288,8 @@
     "fr": "Fête de la Reine",
     "de": "Königinnentag",
     "es": "Día de la Reina",
-    "it": "Giorno della Regina"
+    "it": "Giorno della Regina",
+    "gr": "Ημέρα της Βασίλισσας"
   },
   "Koningsdag": {
     "type": "Nationale Feestdag",
@@ -267,7 +298,8 @@
     "fr": "Fête du Roi",
     "de": "Königstag",
     "es": "Día del Rey",
-    "it": "Giorno del Re"
+    "it": "Giorno del Re",
+    "gr": "Ημέρα του Βασιλιά"
   },
   "Leids Ontzet": {
     "type": "Lokale Feestdag",
@@ -276,7 +308,8 @@
     "fr": "Levée de siège de Leyde",
     "de": "Leidener Entsatz",
     "es": "Alivio del asedio de Leiden",
-    "it": "Assedio revocato di Leida"
+    "it": "Assedio revocato di Leida",
+    "gr": "Λέιντς Όντζετ"
   },
   "Moederdag": {
     "type": "Feestdag",
@@ -285,7 +318,8 @@
     "fr": "Fête des mères",
     "de": "Muttertag",
     "es": "Día de la Madre",
-    "it": "Festa della mamma"
+    "it": "Festa della mamma",
+    "gr": "Γιορτή της Μητέρας"
   },
   "Naturalisatiedag": {
     "type": "Feestdag",
@@ -294,7 +328,8 @@
     "fr": "Journée de la naturalisation",
     "de": "Naturalisationstag",
     "es": "Día de la naturalización",
-    "it": "Giorno della naturalizzazione"
+    "it": "Giorno della naturalizzazione",
+    "gr": "Ημέρα Πολιτογράφησης"
   },
   "Nieuwjaarsdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -303,7 +338,8 @@
     "fr": "Jour de l’an",
     "de": "Neujahrstag",
     "es": "Año Nuevo",
-    "it": "Capodanno"
+    "it": "Capodanno",
+    "gr": "Πρωτοχρονιά"
   },
   "Oudejaarsavond": {
     "type": "Feestavond",
@@ -312,7 +348,8 @@
     "fr": "Réveillon de la Saint-Sylvestre",
     "de": "Silvester",
     "es": "Nochevieja",
-    "it": "Notte di San Silvestro"
+    "it": "Notte di San Silvestro",
+    "gr": "Παραμονή Πρωτοχρονιάς"
   },
   "Prinsjesdag": {
     "type": "Feestdag",
@@ -321,7 +358,8 @@
     "fr": "Jour des petits princes",
     "de": "Prinzentag",
     "es": "Día de los príncipes",
-    "it": "Giorno del principe"
+    "it": "Giorno del principe",
+    "gr": "Ημέρα του Πρίγκιπα"
   },
   "Sinterklaasavond": {
     "type": "Feestavond",
@@ -330,7 +368,8 @@
     "fr": "Réveillon de la Saint Nicolas",
     "de": "Nikolausabend",
     "es": "Noche de San Nicolás",
-    "it": "Notte di San Nicola"
+    "it": "Notte di San Nicola",
+    "gr": "Βράδυ Σίντερκλας"
   },
   "Sint-Maarten": {
     "type": "Feestavond",
@@ -339,7 +378,8 @@
     "fr": "Saint-Martin",
     "de": "Martinstag",
     "es": "Fiesta de San Martín",
-    "it": "Festa di san Martino"
+    "it": "Festa di san Martino",
+    "gr": "Ημέρα του Αγίου Μαρτίνου"
   },
   "Tweede Kerstdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -348,7 +388,8 @@
     "fr": "Lendemain de Noël",
     "de": "Zweiter Weihnachtsfeiertag",
     "es": "Segundo día de Navidad",
-    "it": "Santo Stefano"
+    "it": "Santo Stefano",
+    "gr": "Δευτέρα χριστούγεννων"
   },
   "Tweede Paasdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -357,7 +398,8 @@
     "fr": "Lundi de Pâques",
     "de": "Zweiter Osterfeiertag",
     "es": "Lunes de Pascua",
-    "it": "Lunedì dell'Angelo"
+    "it": "Lunedì dell'Angelo",
+    "gr": "Δευτέρα του Πάσχα"
   },
   "Tweede Pinksterdag": {
     "type": "Algemeen Erkende Feestdag",
@@ -366,7 +408,8 @@
     "fr": "Lundi de Pentecôte",
     "de": "Zweiter Pfingstfeiertag",
     "es": "Lunes de Pentecostés",
-    "it": "Lunedì di Pentecoste"
+    "it": "Lunedì di Pentecoste",
+    "gr": "Δευτέρα της Πεντηκοστής"
   },
   "Vaderdag": {
     "type": "Feestdag",
@@ -375,7 +418,8 @@
     "fr": "Fête des Pères",
     "de": "Vatertag",
     "es": "Día del Padre",
-    "it": "Festa del papà"
+    "it": "Festa del papà",
+    "gr": "Γιορτή του Πατέρα"
   },
   "Valentijnsdag": {
     "type": "Feestdag",
@@ -384,7 +428,8 @@
     "fr": "Saint Valentin",
     "de": "Valentinstag",
     "es": "Día de San Valentín",
-    "it": "San Valentino"
+    "it": "San Valentino",
+    "gr": "Ημέρα του Αγίου Βαλεντίνου"
   },
   "Veteranendag": {
     "type": "Feestdag",
@@ -393,7 +438,8 @@
     "fr": "Journée des anciens combattants",
     "de": "Veteranentag",
     "es": "Día de los veteranos",
-    "it": "Giornata dei veterani"
+    "it": "Giornata dei veterani",
+    "gr": "Ημέρα των Βετεράνων"
   },
   "Witte Donderdag": {
     "type": "Feestdag",
@@ -402,7 +448,8 @@
     "fr": "Jeudi Saint",
     "de": "Gründonnerstag",
     "es": "Jueves Santo",
-    "it": "Giovedì Santo"
+    "it": "Giovedì Santo",
+    "gr": "Μεγάλη Πέμπτη"
   },
   "Wintertijd - uur achteruit": {
     "type": "Infrastructuurwijziging",
@@ -411,7 +458,8 @@
     "fr": "Heure d’hiver",
     "de": "Winterzeit",
     "es": "Horario de invierno",
-    "it": "Ora legale"
+    "it": "Ora legale",
+    "gr": "Χειμερινή ώρα"
   },
   "Zomertijd - uur vooruit": {
     "type": "Infrastructuurwijziging",
@@ -420,6 +468,7 @@
     "fr": "Heure d’été",
     "de": "Sommerzeit",
     "es": "Horario de verano",
-    "it": "Ora invernale"
+    "it": "Ora invernale",
+    "gr": "Θερινή ώρα"
   }
 }
